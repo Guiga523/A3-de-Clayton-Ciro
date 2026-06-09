@@ -52,8 +52,6 @@ img_normal = ctk.CTkImage(light_image=Image.open("imagens/img_feliz.png"), size=
 img_sobrepeso = ctk.CTkImage(light_image=Image.open("imagens/img_gordinho.png"), size=(120, 120))
 img_obesidade = ctk.CTkImage(light_image=Image.open("imagens/img_mtogordinho.png"), size=(120, 120))
 
-# --- ELEMENTOS DA INTERFACE ---
-
 titulo = ctk.CTkLabel(app, text="Calculadora de IMC", font=("Arial", 24, "bold"), text_color=AZUL_SERENO)
 titulo.pack(pady=(40, 20))
 
